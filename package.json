@@ -1,0 +1,15 @@
+{
+  "name": "template-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Alucky4423/template-javascript.git",
+  "author": "Alucky4423 <k.araki4423+service@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
