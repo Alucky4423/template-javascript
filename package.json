@@ -6,6 +6,10 @@
   "author": "Alucky4423 <k.araki4423+service@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
   "devDependencies": {
     "html-webpack-plugin": "^4.0.4",
     "webpack": "^4.42.1",
