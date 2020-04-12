@@ -7,6 +7,13 @@ module.exports = {
   //   path: path.resolve(__dirname, 'dist'),
   //   filename: 'main.js',
   // },
+  resolve: {
+    extensions: ['.js', '.json'],
+    modules: [
+      path.resolve(__dirname, 'src'),
+      'node_modules',
+    ],
+  },
   devServer: {
     host: 'localhost',
     port: 9000,
