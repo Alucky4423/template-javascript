@@ -11,7 +11,7 @@ module.exports = {
     host: 'localhost',
     port: 9000,
     compress: true,
-    hot: true,
+    open: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
