@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --color --progress"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.0.4",

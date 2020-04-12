@@ -7,3 +7,10 @@ if (document.readyState === 'loading') {
 } else {
   main();
 }
+
+// webpack hot module replacement.
+if (module.hot) {
+  module.hot.accept('./index.js', () => {
+    main();
+  });
+}

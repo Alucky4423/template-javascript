@@ -7,6 +7,12 @@ module.exports = {
   //   path: path.resolve(__dirname, 'dist'),
   //   filename: 'main.js',
   // },
+  devServer: {
+    host: 'localhost',
+    port: 9000,
+    compress: true,
+    hot: true,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: '',
