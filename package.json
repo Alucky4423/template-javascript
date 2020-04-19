@@ -7,13 +7,15 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --color --progress"
+    "build": "webpack --config webpack.prod.js",
+    "build:dev": "webpack --config webpack.dev.js",
+    "start": "webpack-dev-server --color --progress --config webpack.dev.js"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.0.4",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
   }
 }
