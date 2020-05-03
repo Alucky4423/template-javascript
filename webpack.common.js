@@ -15,6 +15,11 @@ module.exports = {
       'node_modules',
     ],
   },
+  module: {
+    rules: [
+      { test: /\.js$/, execlude: /node_modules/, loader: 'babel-loader', },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: '',
