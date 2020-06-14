@@ -1,5 +1,7 @@
+import hello from 'hello';
+
 function main(event = null) {
-  console.log('hello world!');
+  console.log(hello());
 }
 
 if (document.readyState === 'loading') {
