@@ -17,7 +17,7 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.js$/, execlude: /node_modules/, loader: 'babel-loader', },
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader', },
     ],
   },
   plugins: [
