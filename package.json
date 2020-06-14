@@ -10,7 +10,8 @@
     "build": "webpack --config webpack.prod.js",
     "build:dev": "webpack --config webpack.dev.js",
     "start": "webpack-dev-server --color --progress --config webpack.dev.js",
-    "lint": "eslint ./src/*"
+    "lint": "eslint ./src/*",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
